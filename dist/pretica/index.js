@@ -14,8 +14,8 @@ var pessoa = {
 };
 function Usuario(email) {
     if (email === void 0) { email = 'pessoa@gmail.com'; }
-    return 'emial validado';
+    return 'email validado';
 }
 Usuario('pessoa@gmail.com');
-console.log(pessoa);
+console.log(Usuario);
 //# sourceMappingURL=index.js.map

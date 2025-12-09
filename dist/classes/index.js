@@ -12,4 +12,5 @@ var Pessoa = /** @class */ (function () {
     return Pessoa;
 }());
 var user = new Pessoa();
+//---------------------------------------
 //# sourceMappingURL=index.js.map
