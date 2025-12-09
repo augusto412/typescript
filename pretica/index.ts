@@ -25,14 +25,14 @@ let usuario: Usuario ={
 //--------------------------------------------------------------
 
 
-interface Pessoa{
+interface Cliente{
     id: number,
     nome: string,
     email: string,
     senha: string,
 };
 
-const pessoa: Pessoa = {
+const pessoa: Cliente = {
     id:10,
     nome:'augusto',
     email:'pessoa@gmail.com',
@@ -40,8 +40,8 @@ const pessoa: Pessoa = {
 }
 
 function Usuario(email: string = 'pessoa@gmail.com'){
-    return 'emial validado'
+    return 'email validado'
 }
 
 Usuario('pessoa@gmail.com');
-console.log(pessoa);
+console.log(Usuario);
