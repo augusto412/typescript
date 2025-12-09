@@ -10,3 +10,4 @@ somar(1, 2);
 //any  = qualquer coisa;
 // void = não retorna nada / para trablahar em background
 //null e undefined = indefinido ou nao encontrado;
+//# sourceMappingURL=index.js.map

@@ -22,3 +22,26 @@ let usuario: Usuario ={
     idade:21,
 }
 
+//--------------------------------------------------------------
+
+
+interface Pessoa{
+    id: number,
+    nome: string,
+    email: string,
+    senha: string,
+};
+
+const pessoa: Pessoa = {
+    id:10,
+    nome:'augusto',
+    email:'pessoa@gmail.com',
+    senha: 'pessoa123'
+}
+
+function Usuario(email: string = 'pessoa@gmail.com'){
+    return 'emial validado'
+}
+
+Usuario('pessoa@gmail.com');
+console.log(pessoa);

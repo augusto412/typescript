@@ -5,3 +5,17 @@ var usuario = {
     senha: '123',
     idade: 21,
 };
+;
+var pessoa = {
+    id: 10,
+    nome: 'augusto',
+    email: 'pessoa@gmail.com',
+    senha: 'pessoa123'
+};
+function Usuario(email) {
+    if (email === void 0) { email = 'pessoa@gmail.com'; }
+    return 'emial validado';
+}
+Usuario('pessoa@gmail.com');
+console.log(pessoa);
+//# sourceMappingURL=index.js.map
